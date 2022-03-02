@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-21T10:54:37 IST" name="Suite" finished-at="2022-02-21T10:54:50 IST" duration-ms="12816">
+    <groups>
+    </groups>
+    <test started-at="2022-02-21T10:54:37 IST" name="ChromeTest" finished-at="2022-02-21T10:54:45 IST" duration-ms="7953">
+      <class name="testbrowser.CrossBrowserTesting">
+        <test-method signature="VerifyTitle(java.lang.String)[pri:0, instance:testbrowser.CrossBrowserTesting@2f465398]" started-at="2022-02-21T10:54:37 IST" name="VerifyTitle" finished-at="2022-02-21T10:54:45 IST" duration-ms="7903" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTitle -->
+      </class> <!-- testbrowser.CrossBrowserTesting -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2022-02-21T10:54:37 IST" name="FirefoxTest" finished-at="2022-02-21T10:54:50 IST" duration-ms="12816">
+      <class name="testbrowser.CrossBrowserTesting">
+        <test-method signature="VerifyTitle(java.lang.String)[pri:0, instance:testbrowser.CrossBrowserTesting@343570b7]" started-at="2022-02-21T10:54:37 IST" name="VerifyTitle" finished-at="2022-02-21T10:54:50 IST" duration-ms="12771" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTitle -->
+      </class> <!-- testbrowser.CrossBrowserTesting -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>
